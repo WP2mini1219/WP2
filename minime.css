@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+
+input[type=text]{
+	width: 275px;
+	border: none;
+	border-radius: 50px;
+	padding: 10px 20px;
+	margin-bottom: 15px;
+}
+input[type=email]{
+	width: 275px;
+	border: none;
+	border-radius: 50px;
+	padding: 10px 20px;
+	margin-bottom: 15px;
+}
+input[type=submit]{
+	width: 300px;
+	border: none;
+	background-color: #dcedc1;
+	border-radius: 50px;
+	padding: 10px 20px;
+	margin-bottom: 15px;
+}
+input[type=radio]{
+	padding: 10px 20px;
+	margin-bottom: 15px;
+	font-size: 5px;
+}
+.up_btn:hover{
+	background-color: #35a79c;
+	color: white;
+}
+.header{
+	color:#dcedc1;
+	font-family: "Patrick Hand";
+	padding: 35px;
+  	text-align: center;
+  	font-size: 35px;
+}
+.h1 {
+	font-family: Impact, Charcoal, sans-serif;
+	font-variant: small-caps;
+	font-size: 40px;
+	padding-bottom: 15px;
+	color: #451e3e;
+    text-shadow: -1px 0 #faebd7, 0 1px #faebd7, 1px 0 #faebd7, 0 -1px #faebd7;
+}
+.container{
+  max-width: 400px;
+  height: 700px;
+  margin: 0 auto;
+  background: #e3f0fF;
+  font-size: 24px;
+  padding: 45px;
+}
+.parallax{
+	background: url('parac.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 1000px;
+}
+.error{
+	color: red;
+	font-size: 15px;
+}
